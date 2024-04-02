@@ -28,7 +28,7 @@ ul {
     flex-wrap: wrap;
 }
 
-li {
+.nav_link1 li {
     color:#94CCCB;
     margin-inline-end: 12px;
     padding: 1px 10px;
@@ -88,13 +88,14 @@ h1 {
 }
 
 h2 {
+    min-width: 300px;
     font-size: 48px;
     box-sizing: content-box;
     width: 200px;
     color: #31343D;
 }
 
-h3 {
+.nav_link1 h3 {
     font-size: 22px;
     text-decoration: none;
     color: #94CCCB;
@@ -110,20 +111,29 @@ main {
 
 .blocks {
     display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 .box {
-    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .box1 {
     display: flex;
-    flex: 3 0 900px;
+    transition: all 0.5s ease-in-out;
+    flex: 1 1 300px;
+    border: 5px solid #94CCCB;
+    padding: 10px;
+    margin: 10px;
 }
 
 .box2 {
     display: flex;
-    flex-direction: column;
+    transition: all 0.5s ease-in-out;
+    margin: 10px;
+    border: 5px solid #94CCCB;
 }
 
 div h2 {
@@ -134,8 +144,7 @@ div h2 {
 
 .left_list {
     display: flex;
-    justify-content: stretch;
-    padding: 20px;
+    flex-direction: row;
 }
 
 .left-list h2 {
@@ -150,8 +159,6 @@ div h2 {
 }
 
 p {
-    display: flex;
-    flex-wrap: wrap;
     font-size: 14px;
     color: grey;
 }
@@ -166,25 +173,38 @@ p {
 }
 
 #y {
-    color: #94CCCB;
+    color: #31343D;
     display: flex;
     align-items: center;
     justify-content: stretch;
-    width: fit-content;
+    flex-grow: 3;
 }
 
 #y ul {
     display: flex;
+    width: 100%;
 }
 
 .nav_link2 {
     display: flex;
     list-style: none;
     font-size: 28px;
+    justify-content: center;
 }
 
 .nav_link2 li {
     text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-inline-end: 12px;
+    padding: 1px 10px;
+    border-bottom: solid 4px #31343D;
+}
+
+.nav_link2 h3 {
+    font-size: 28px;
+    text-decoration: none;
+    color: #31343D;
 }
 
 footer {
@@ -200,4 +220,8 @@ footer {
         display: flex;
         flex-wrap: wrap;
     }
+}
+
+.box1:hover, .box2:hover p {
+    box-shadow: inset 0px 0px 8px yellow, 0 0 15px var pink;
 }
