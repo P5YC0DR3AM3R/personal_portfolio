@@ -125,7 +125,6 @@ main {
     transition: all 0.5s ease-in-out;
     flex: 1 1 300px;
     border: 5px solid #94CCCB;
-    padding: 10px;
     margin: 10px;
 }
 
@@ -138,8 +137,7 @@ main {
 
 div h2 {
     text-align: right;
-    padding: 10px;
-    border-right: solid;
+    border-right: 5px solid;
 }
 
 .left_list {
@@ -159,7 +157,7 @@ div h2 {
 }
 
 p {
-    font-size: 14px;
+    font-size: 20px;
     color: grey;
 }
 
@@ -202,7 +200,7 @@ p {
 }
 
 .nav_link2 h3 {
-    font-size: 28px;
+    font-size: 24px;
     text-decoration: none;
     color: #31343D;
 }
