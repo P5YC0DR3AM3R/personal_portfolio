@@ -11,7 +11,7 @@ body {
     box-sizing: border-box;
     justify-content: space-between;
     unicode-bidi: isolate;
-    background-color: white;
+    background-color: rgb(241, 243, 255);
 }
 
 header {
@@ -91,18 +91,16 @@ h2 {
     min-width: 300px;
     font-size: 48px;
     box-sizing: content-box;
-    width: 200px;
     color: #31343D;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .nav_link1 h3 {
-    font-size: 22px;
+    font-size: 30px;
     text-decoration: none;
     color: #94CCCB;
-}
-
-h4 {
-
 }
 
 main {
@@ -113,26 +111,87 @@ main {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 10px;
+}
+
+.blocks p {
+    display: flex;
+    width: min-content;
+    position:relative; left:0px; top:350px;
+    align-items: flex-end;
+    background-color: #94CCCB;
 }
 
 .box {
     display: grid;
-    grid-template-columns: 50% 50%;
 }
 
 .box1 {
     display: flex;
     transition: all 0.5s ease-in-out;
-    flex: 1 1 300px;
-    border: 5px solid #94CCCB;
-    margin: 10px;
+    flex: 0 0 45em;
+    border: 15px solid #94CCCB;
+    margin: 4px;
+    background-image: url("../images/orchids.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box1 p {
+    color: #31343D;
+    position:relative; left:0px; top:560px;
 }
 
 .box2 {
-    display: flex;
-    transition: all 0.5s ease-in-out;
-    margin: 10px;
-    border: 5px solid #94CCCB;
+    display: grid;
+    height: 500px;
+}
+
+.box2 p {
+    color: #31343D;
+}
+
+#iguana {
+    background-image: url("../images/iguana.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 4px;
+    border: 15px solid #94CCCB;
+    grid-column: 1;
+    grid-row: 3;
+
+}
+
+#dog_seat {
+    background-image: url("../images/dog_seat.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 4px;
+    border: 15px solid #94CCCB;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#guitar {
+    background-image: url("../images/guitars.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 4px;
+    border: 15px solid #94CCCB;
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#harley {
+    background-image: url("../images/harley.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 4px;
+    border: 15px solid #94CCCB;
+    grid-column: 2;
+    grid-row: 4;
 }
 
 div h2 {
@@ -157,13 +216,14 @@ div h2 {
 }
 
 p {
-    font-size: 20px;
-    color: grey;
+    display: flex;
+    font-size: 26px;
+    color: #31343D;
 }
 
 #cards p {
     display: flex;
-    padding: 30px;
+    padding: 20px;
 }
 
 #cards h2 {
@@ -200,7 +260,7 @@ p {
 }
 
 .nav_link2 h3 {
-    font-size: 24px;
+    font-size: 33px;
     text-decoration: none;
     color: #31343D;
 }
@@ -220,6 +280,49 @@ footer {
     }
 }
 
-.box1:hover, .box2:hover p {
-    box-shadow: inset 0px 0px 8px yellow, 0 0 15px var pink;
+.box1:hover {
+    border-color: rgb(98, 184, 249);
+    background-color: rgb(98, 184, 249);
+    color: #31343D;
+    transition: all .6s ease-in-out;
+}
+
+#iguana:hover {
+    border-color: rgb(98, 184, 249);
+    background-color: rgb(98, 184, 249);
+    color: #31343D;
+    transition: all .6s ease-in-out;
+}
+
+#dog_seat:hover {
+    border-color: rgb(98, 184, 249);
+    background-color: rgb(98, 184, 249);
+    color: #31343D;
+    transition: all .6s ease-in-out;
+}
+
+#guitar:hover {
+    border-color: rgb(98, 184, 249);
+    background-color: rgb(98, 184, 249);
+    color: #31343D;
+    transition: all .6s ease-in-out;
+}
+
+#harley:hover {
+    border-color: rgb(98, 184, 249);
+    background-color: rgb(98, 184, 249);
+    color: #31343D;
+    transition: all .6s ease-in-out;
+}
+
+.box1 p:hover {
+    background-color: rgb(98, 184, 249);
+    color: #31343D;
+    transition: all .6s ease-in-out;
+}
+
+.box2 p:hover {
+    background-color: rgb(98, 184, 249);
+    color: #31343D;
+    transition: all .6s ease-in-out;
 }

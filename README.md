@@ -2,12 +2,16 @@
 
 ## Website created as a portfolio for coding development and design. To be continually updated with content directly related to my coding and developer journey.
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+Below is a short description explaining the what, why, and how of my project. I have use thed following questions as a guide:
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+### - What was your motivation?
+I was motivated to build this page using html and css code to practice building and debugging a website.
+### - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+ It is useful as a reference tool for future builds. It was also very challenging, and a great learning experience.
+### - What problem does it solve?
+It provides a single place to view my current resume and projects.
+### - What did you learn?
+HTML5 and CSS
 
 ## Table of Contents (Optional)
 
@@ -18,11 +22,11 @@ Provide a short description explaining the what, why, and how of your project. U
 
 ## Installation
 
-Code written in HTML5, CSS, and JavaScript to present as a website to use as an example of quality of work and design knowledge.
+Code written in HTML5 and CSS to present as a website to use as an example of quality of work and design knowledge.
 
 ## Usage
 
-![Screenshot of final page](assets/images/screenshot.png)
+![Screenshot of final page](./assets/images/Screenshot.png)
 
 ## Credits
 
