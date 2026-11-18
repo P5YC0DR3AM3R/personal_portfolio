@@ -146,7 +146,7 @@ main {
     flex: 0 0 45em;
     border: 15px solid #94CCCB;
     margin: 4px;
-    background-image: url("../images/orchids.jpeg");
+    background-image: url("../images/orchids.webp");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -168,7 +168,7 @@ main {
 /* More IMG properties */
 
 #iguana {
-    background-image: url("../images/iguana.jpeg");
+    background-image: url("../images/iguana.webp");
     background-size: cover;
     background-repeat: no-repeat;
     margin: 4px;
@@ -179,7 +179,7 @@ main {
 }
 
 #dog_seat {
-    background-image: url("../images/dog_seat.jpeg");
+    background-image: url("../images/dog_seat.webp");
     background-size: cover;
     background-repeat: no-repeat;
     margin: 4px;
@@ -189,7 +189,7 @@ main {
 }
 
 #guitar {
-    background-image: url("../images/guitars.jpeg");
+    background-image: url("../images/guitars.webp");
     background-size: cover;
     background-repeat: no-repeat;
     margin: 4px;
@@ -199,7 +199,7 @@ main {
 }
 
 #harley {
-    background-image: url("../images/harley.jpeg");
+    background-image: url("../images/harley.webp");
     background-size: cover;
     background-repeat: no-repeat;
     margin: 4px;

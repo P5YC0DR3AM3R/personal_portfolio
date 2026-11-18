@@ -1,3 +1,9 @@
+> **Status:** classroom exercise, 2024. Not a Phygital-DevOps production app.
+>
+> EdX personal portfolio, static HTML/CSS. Not the current phygitaldevops.com site.
+>
+> 2026 baseline: secrets stay out of source, Actions are pinned, placeholder packages are gone, CI checks this tree.
+
 # Personal Portfolio
 
 ## Website created as a portfolio for coding development and design. To be continually updated with content directly related to my coding and developer journey.
@@ -28,7 +34,7 @@ Code written in HTML5 and CSS to present as a website to use as an example of qu
 
 https://p5yc0dr3am3r.github.io/personal_portfolio/
 
-![Screenshot of final page](./assets/images/Screenshot.png)
+![Screenshot of final page](./assets/images/Screenshot.webp)
 
 ## Credits
 
